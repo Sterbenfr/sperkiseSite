@@ -6,17 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
+    "eslint-config-prettier": "^9.0.0",
     "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-jsx": "^5.1.2",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
   }
 }
