@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 100vh;
 }
 
@@ -27,6 +27,7 @@
 
 .subTitle {
   font-size: 2.5vw;
+  padding-bottom: 3vw;
 }
 
 .contact {
