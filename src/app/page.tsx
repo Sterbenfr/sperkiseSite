@@ -38,7 +38,7 @@ export default function MaintenancePage() {
             l&apos;utilisation de notre site web, nous vous encourageons à les
             signaler. Veuillez créer un ticket dans le repository ou en me
             contactant sur ce mail :{' '}
-            <a href='mailto:sterben538@gmail.com'>{'sterben538@gmail.com'}</a> ,
+            <a href='mailto:michael.laurent59@gmail.com'>{'michael.laurent59@gmail.com'}</a> ,
             et nous le traiterons rapidement pour améliorer votre expérience.
           </p>
         </div>
