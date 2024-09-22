@@ -1,0 +1,116 @@
+/* Style général pour les articles */
+.post {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+/* Image en arrière-plan du titre */
+.postImage{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24rem;
+  height: 24rem;
+  object-fit: cover;
+}
+
+.post h1 {
+  font-size: 32px;
+  color: #d6aa83;
+  margin-bottom: 20px;
+}
+
+/* Text content */
+.textContent {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-right: 50%; /* Prévenir chevauchement de l'image */
+}
+
+/* Styles pour les listes */
+.textContent ul {
+  list-style-type: disc; /* Liste à puces */
+  padding-left: 20px; /* Indentation des listes à puces */
+}
+
+.textContent ol {
+  list-style-type: decimal; /* Liste numérotée */
+  padding-left: 20px; /* Indentation des listes numérotées */
+}
+
+.textContent ul li,
+.textContent ol li {
+  margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+}
+
+/* Style pour le gras et l'italique */
+.textContent strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.textContent em {
+  font-style: italic;
+  color: #555;
+}
+
+/* Blockquote */
+.textContent blockquote {
+  border-left: 4px solid #d6aa83;
+  padding-left: 15px;
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+}
+
+/* Gestion des liens */
+.textContent a {
+  color: #d6aa83;
+  text-decoration: none;
+  border-bottom: 1px dotted #d6aa83;
+}
+
+.textContent a:hover {
+  color: #c49572;
+  border-bottom: 1px solid #c49572;
+}
+
+/* Code inline et block */
+.textContent code {
+  background-color: #f4f4f4;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.textContent pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .post h1 {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+  .textContent {
+    margin-right: 0;
+    margin-top: 20px; /* Adjusted space between image and text content */
+  }
+
+  .postImage {
+    display: none;
+  }
+}

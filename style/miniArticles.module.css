@@ -1,0 +1,120 @@
+.post-summary {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on mobile */
+  padding: 10px;
+  border: 1px solid #d6aa83; /* Border follows the theme */
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-color: #fff; /* White background */
+}
+
+/* On hover, slight scaling effect */
+.post-summary:hover {
+  transform: scale(1.02);
+}
+
+/* Ensure the image takes up proper width and scales well on mobile */
+.summary-image {
+  width: 100%; /* Full width image for mobile */
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Space below the image on mobile */
+}
+
+/* The content will now take up available space */
+.summary-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1; /* Takes up the remaining space next to the image */
+}
+
+.title {
+  font-weight: bold;
+}
+
+.summary-content h2 {
+  font-size: 20px; /* Mobile-friendly font size */
+  margin-bottom: 5px;
+  color: #d6aa83; /* Heading color follows the theme */
+}
+
+.summary-content h3 {
+  font-size: 12px;
+  color: #7c7c7c;
+}
+
+.author {
+  font-size: 12px;
+  color: #7c7c7c;
+}
+
+.mini-text {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #555; /* Darker text color for readability */
+  word-wrap: break-word; 
+  margin-bottom: 5px;
+}
+
+/* For tablets and larger mobile devices (768px and up) */
+@media (min-width: 767px) {
+  .post-summary {
+    flex-direction: row; /* Switch to horizontal layout on larger screens */
+    padding: 15px;
+    align-items: center; /* Ensures image and text align vertically */
+  }
+
+  /* Ensure proper left or right image alignment */
+  .image-left {
+    flex-direction: row; /* Image on the left */
+  }
+
+  .image-right {
+    flex-direction: row-reverse; /* Image on the right */
+  }
+
+  /* Adjust image size on larger screens */
+  .summary-image {
+    width: 200px; /* Fixed image size */
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+  }
+
+  /* Allow text to take up the rest of the space next to the image */
+  .summary-content {
+    flex: 1;
+    max-width: calc(100% - 220px); /* Ensures the content doesn't overflow */
+  }
+
+  .summary-content h2 {
+    font-size: 30px; /* Larger font size */
+  }
+
+  .summary-content h3 {
+    font-size: 14px;
+  }
+
+  .mini-text {
+    font-size: 16px;
+  }
+}
+
+/* For desktop (1024px and up) */
+@media (min-width: 1024px) {
+  .post-summary {
+    padding: 20px;
+  }
+
+  .summary-content h2 {
+    font-size: 40px; /* Even larger text for desktop */
+  }
+
+  .summary-content h3 {
+    font-size: 16px;
+  }
+
+  .mini-text {
+    font-size: 20px;
+  }
+}
