@@ -24,8 +24,8 @@ const Contact = () => {
         <h2>Venez nous rencontrer à la bourse</h2>
         <p>
           Nous serons disponibles pour répondre à toutes vos questions lors de
-          la bourse aux minéraux et fossiles qui se tiendra les 28 et 29
-          septembre 2024. N&apos;hésitez pas à venir nous voir à notre stand
+          la bourse aux minéraux et fossiles qui se tiendra les 27 et 28
+          septembre 2025. N&apos;hésitez pas à venir nous voir à notre stand
           pour en savoir plus sur le club, nos activités, ou simplement discuter
           de minéraux et fossiles !
         </p>
