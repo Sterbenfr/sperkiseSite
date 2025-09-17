@@ -33,6 +33,17 @@
   margin-right: 50%; /* Prévenir chevauchement de l'image */
 }
 
+.textContent p {
+  margin: 0 0 1rem 0; 
+  line-height: 1.8;
+}
+
+/* Si des <br/> sont insérés, ajouter un petit espace vertical */
+.textContent br {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
 /* Styles pour les listes */
 .textContent ul {
   list-style-type: disc; /* Liste à puces */

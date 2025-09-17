@@ -1,24 +1,23 @@
 'use client'
 import React from 'react'
 import styles from '../../style/actualites.module.css'
-import downloadICSFile from '@/utils/dowloadICSFile'
 
 const Actualites = () => {
   return (
     <div className={styles.pageContainer}>
       {/* Section 1: Bourse aux minéraux et fossiles */}
       <div className={styles.card}>
-        <h2>Bourse aux Minéraux et Fossiles - 28-29/09/2024</h2>
+        <h2>Bourse aux Minéraux et Fossiles - 27-28/09/2025</h2>
         <p>
-          Le weekend du 28-29 septembre 2024, notre club organise la
+          Le weekend du 27-28 septembre 2025, notre club organise la
           traditionnelle bourse aux minéraux et fossiles. Nous vous
           accueillerons de 9h30 à 18h sans interruption. Une restauration sera
           proposée sur place, avec tartes, sandwichs, croque-monsieur et
           boissons. Un stand d&apos;identification, de présentation de
           l&apos;association et une tombola seront aussi proposés
         </p>
-
-        {/* Calendar Button */}
+        {/** TODO : Re-add this 
+        /* Calendar Button 
         <button
           className={styles.calendarButton}
           onClick={() =>
@@ -33,7 +32,7 @@ const Actualites = () => {
         >
           Ajouter à mon calendrier
         </button>
-
+          */}
         {/* GPS and Map */}
         <div className={styles.location}>
           <p>Adresse: Salle Pierre Herman, 5 Rue Jean Macé, 59290 Wasquehal</p>
@@ -54,10 +53,10 @@ const Actualites = () => {
       <div className={styles.card}>
         <h2>Prochaine réunion</h2>
         <p>
-          La prochaine réunion se tiendra le vendredi 6 septembre 2024 à 19h45.
+          La prochaine réunion se tiendra le vendredi 3 Octobre 2025 à 19h45.
         </p>
 
-        {/* Calendar Button */}
+        {/* Calendar Button 
         <button
           className={styles.calendarButton}
           onClick={() =>
@@ -72,7 +71,7 @@ const Actualites = () => {
         >
           Ajouter à mon calendrier
         </button>
-
+*/}
         {/* GPS and Map */}
         <div className={styles.location}>
           <p>
