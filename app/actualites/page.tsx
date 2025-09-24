@@ -17,8 +17,8 @@ const Actualites = () => {
           boissons. Un stand d&apos;identification, de présentation de
           l&apos;association et une tombola seront aussi proposés
         </p>
-
-        {/* Calendar Button */}
+        {/** TODO : Re-add this 
+        /* Calendar Button 
         <button
           className={styles.calendarButton}
           onClick={() =>
@@ -33,7 +33,7 @@ const Actualites = () => {
         >
           Ajouter à mon calendrier
         </button>
-
+          */}
         {/* GPS and Map */}
         <div className={styles.location}>
           <p>Adresse: Salle Pierre Herman, 5 Rue Jean Macé, 59290 Wasquehal</p>
@@ -54,10 +54,10 @@ const Actualites = () => {
       <div className={styles.card}>
         <h2>Prochaine réunion</h2>
         <p>
-          La prochaine réunion se tiendra le vendredi 6 septembre 2024 à 19h45.
+          La prochaine réunion se tiendra le vendredi 3 Octobre 2025 à 19h45.
         </p>
 
-        {/* Calendar Button */}
+        {/* Calendar Button 
         <button
           className={styles.calendarButton}
           onClick={() =>
@@ -72,7 +72,7 @@ const Actualites = () => {
         >
           Ajouter à mon calendrier
         </button>
-
+*/}
         {/* GPS and Map */}
         <div className={styles.location}>
           <p>
