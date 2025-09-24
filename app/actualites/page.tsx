@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import styles from '../../style/actualites.module.css'
-import downloadICSFile from '@/utils/dowloadICSFile'
 
 const Actualites = () => {
   return (
