@@ -63,8 +63,6 @@ const Home: React.FC = () => {
     const getPosts = async () => {
       try {
         const res = (await fetchEntries()) as Entry[] | undefined
-        console.log('Posts:', res)
-
         if (res) {
           const posts = res.map((entry: Entry) => ({
             ...entry.fields,
@@ -74,7 +72,6 @@ const Home: React.FC = () => {
 
           // Filter out posts with the 'auteurs' tag
           const filteredPosts = posts.filter((post: ContentfulPost) => {
-            console.log('post:', post.metadata)
             return !post.metadata?.tags.some(tag => tag.sys.id === 'auteurs')
           })
 
@@ -90,7 +87,6 @@ const Home: React.FC = () => {
   }, [])
 
   const handleClick = (id: string) => {
-    console.log('Clicked on post:', id)
     router.push(`/articles/${id}`)
   }
 
