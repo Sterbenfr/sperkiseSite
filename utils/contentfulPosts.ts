@@ -16,7 +16,7 @@ const client = createClient({
 export async function fetchEntries() {
   const entries = await client.getEntries()
   if (entries.items) return entries.items
-  console.log('Error getting Entries.')
+  console.error('Error getting Entries.')
 }
 
 const contentfulAPI = { fetchEntries }
