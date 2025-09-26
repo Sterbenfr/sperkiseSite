@@ -26,5 +26,7 @@ If you encounter any bugs or issues while using our website, we encourage you to
 report them. Please create an issue in this repository, and we will address it
 promptly to improve your experience.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/92c6e842-f132-4394-bd8c-4ff1a8508e3b/deploy-status)](https://app.netlify.com/projects/glistening-marshmallow-20fdc1/deploys)
+
 Thank you for your interest in Sperkise Association! We look forward to
 connecting with you and sharing our love for mineralogy and paleontology.
